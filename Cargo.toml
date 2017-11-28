@@ -1,0 +1,9 @@
+[package]
+name = "hello-midgar"
+version = "0.1.0"
+authors = ["Gabriel Martinez <reitaka@gmail.com>", "Angelo Yazar <angeloyazar@gmail.com>"]
+
+[dependencies]
+cgmath = "0.15"
+midgar = { git = "https://github.com/mystal/midgar-engine", branch = "text_rendering" }
+rand = "0.3"
