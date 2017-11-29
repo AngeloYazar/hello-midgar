@@ -26,7 +26,7 @@ impl<'a> midgar::App for GameApp<'a> {
                                             -1.0, 1.0);
 
         let background = {
-            let texture = Rc::new(midgar.graphics().load_texture("assets/textures/background.png", true));
+            let texture = Rc::new(midgar.graphics().load_texture("assets/textures/background.png", false));
             TextureRegion::new(texture)
         };
 
