@@ -5,5 +5,5 @@ authors = ["Gabriel Martinez <reitaka@gmail.com>", "Angelo Yazar <angeloyazar@gm
 
 [dependencies]
 cgmath = "0.15"
-midgar = { git = "https://github.com/mystal/midgar-engine", branch = "text_rendering" }
+midgar = { git = "https://github.com/mystal/midgar-engine", branch = "jammin" }
 rand = "0.3"
